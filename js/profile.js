@@ -66,9 +66,9 @@ fileInput.addEventListener('change', (event) => {
         reader.addEventListener('load', () => {
             // Get the data URL string
             console.log(reader.result);
-            profilepic.src = reader.result;
             localStorage.setItem("pic", reader.result);
             window.location.reload();
+            profilepic.src = reader.result;
                         // document.cookie = "pic="+reader.result+"; expires=Thu, 18 Dec 2024 12:00:00 UTC;path=/";
         });
     }
