@@ -15,19 +15,21 @@
     width: 128px;
     height: 128px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-   
+    
     z-index:0;
 }
 img {
     max-width: 100%;
     height: auto;
+    
 }
 .p-image {
-  position: absolute;
+  /* position: absolute;
   top: 217px;
-  right: 700px;
+  right: 700px; */
   /* color: #666666; */
   /* z-index: 100; */
+  
   font-size: 2em;
   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
 }
@@ -41,4 +43,11 @@ img {
 .upload-button:hover {
   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
   color: #999;
+}
+
+#pic{
+  display: flex;
+  align-items: baseline;
+
+  /* border-radius: 100%; */
 }
